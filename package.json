@@ -92,7 +92,9 @@
   "types": "types/index.d.ts",
   "scripts": {
     "test": "NODE_ENV=test bash test/pm2_check_dependencies.sh && NODE_ENV=test bash test/pm2_programmatic_tests.sh && NODE_ENV=test bash test/pm2_behavior_tests.sh",
-    "bench-pmx": "pm2 delete all; pm2 install pm2-probe; node examples/pmx/app.js; pm2 ls"
+    "bench-pmx": "pm2 delete all; pm2 install pm2-probe; node examples/pmx/app.js; pm2 ls",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "cli",
@@ -186,7 +188,8 @@
     "sprintf-js": "1.1.1",
     "v8-compile-cache": "^1.1.0",
     "vizion": "^0.2",
-    "yamljs": "^0.3.0"
+    "yamljs": "^0.3.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "mocha": "^3.5",
@@ -202,5 +205,6 @@
     "type": "git",
     "url": "git://github.com/Unitech/pm2.git"
   },
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "snyk": true
 }

@@ -161,7 +161,7 @@
   "dependencies": {
     "async": "^2.5",
     "blessed": "^0.1.81",
-    "chalk": "^1.1",
+    "chalk": "^2.0.0",
     "chokidar": "^1.7",
     "cli-table-redemption": "^1.0.0",
     "commander": "2.12.2",

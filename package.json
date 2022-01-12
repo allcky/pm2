@@ -181,7 +181,7 @@
     "pmx": "~1.5.*",
     "promptly": "2.2.0",
     "semver": "^5.3",
-    "shelljs": "0.7.8",
+    "shelljs": "0.8.5",
     "source-map-support": "^0.5",
     "sprintf-js": "1.1.1",
     "v8-compile-cache": "^1.1.0",

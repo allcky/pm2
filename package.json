@@ -180,7 +180,7 @@
     "pm2-multimeter": "^0.1.2",
     "pmx": "~1.5.*",
     "promptly": "2.2.0",
-    "semver": "^5.3",
+    "semver": "^7.5.2",
     "shelljs": "0.7.8",
     "source-map-support": "^0.5",
     "sprintf-js": "1.1.1",
